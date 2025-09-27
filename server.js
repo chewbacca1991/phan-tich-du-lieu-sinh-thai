@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Ecological Data Analysis! Version 1.0');
+  res.send('Welcome to Ecological Data Analysis! Version 1.1');
 });
 
 app.listen(PORT, () => {
