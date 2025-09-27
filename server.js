@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Phân Tích Dữ Liệu Sinh Thái!');
+  res.send('Welcome to Ecological Data Analysis!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server đang chạy trên http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
